@@ -1,0 +1,225 @@
+  UID     PID    PPID %MEM CMD
+    0       2       0  0.0 [kthreadd]
+    0       3       2  0.0   [rcu_gp]
+    0       4       2  0.0   [rcu_par_gp]
+    0       5       2  0.0   [netns]
+    0       7       2  0.0   [kworker/0:0H-events_highpri]
+    0       9       2  0.0   [mm_percpu_wq]
+    0      10       2  0.0   [rcu_tasks_rude_]
+    0      11       2  0.0   [rcu_tasks_trace]
+    0      12       2  0.0   [ksoftirqd/0]
+    0      13       2  0.0   [rcu_sched]
+    0      14       2  0.0   [migration/0]
+    0      15       2  0.0   [idle_inject/0]
+    0      17       2  0.0   [cpuhp/0]
+    0      18       2  0.0   [cpuhp/1]
+    0      19       2  0.0   [idle_inject/1]
+    0      20       2  0.0   [migration/1]
+    0      21       2  0.0   [ksoftirqd/1]
+    0      23       2  0.0   [kworker/1:0H-kblockd]
+    0      24       2  0.0   [kdevtmpfs]
+    0      25       2  0.0   [inet_frag_wq]
+    0      27       2  0.0   [kauditd]
+    0      28       2  0.0   [khungtaskd]
+    0      29       2  0.0   [oom_reaper]
+    0      30       2  0.0   [writeback]
+    0      31       2  0.0   [kcompactd0]
+    0      32       2  0.0   [ksmd]
+    0      33       2  0.0   [khugepaged]
+    0      79       2  0.0   [kintegrityd]
+    0      80       2  0.0   [kblockd]
+    0      81       2  0.0   [blkcg_punt_bio]
+    0      82       2  0.0   [tpm_dev_wq]
+    0      83       2  0.0   [ata_sff]
+    0      84       2  0.0   [md]
+    0      85       2  0.0   [edac-poller]
+    0      86       2  0.0   [devfreq_wq]
+    0      87       2  0.0   [watchdogd]
+    0      89       2  0.0   [kworker/0:1H-kblockd]
+    0      90       2  0.0   [kswapd0]
+    0      91       2  0.0   [ecryptfs-kthrea]
+    0      93       2  0.0   [kthrotld]
+    0      96       2  0.0   [mld]
+    0      97       2  0.0   [ipv6_addrconf]
+    0     106       2  0.0   [kstrp]
+    0     109       2  0.0   [zswap-shrink]
+    0     110       2  0.0   [kworker/u5:0]
+    0     115       2  0.0   [charger_manager]
+    0     155       2  0.0   [scsi_eh_0]
+    0     156       2  0.0   [scsi_tmf_0]
+    0     157       2  0.0   [scsi_eh_1]
+    0     158       2  0.0   [scsi_tmf_1]
+    0     159       2  0.0   [scsi_eh_2]
+    0     160       2  0.0   [scsi_tmf_2]
+    0     161       2  0.0   [scsi_eh_3]
+    0     162       2  0.0   [scsi_tmf_3]
+    0     163       2  0.0   [scsi_eh_4]
+    0     164       2  0.0   [scsi_tmf_4]
+    0     165       2  0.0   [scsi_eh_5]
+    0     166       2  0.0   [scsi_tmf_5]
+    0     173       2  0.0   [kworker/1:1H-kblockd]
+    0     181       2  0.0   [kdmflush]
+    0     182       2  0.0   [kdmflush]
+    0     214       2  0.0   [jbd2/dm-0-8]
+    0     215       2  0.0   [ext4-rsv-conver]
+    0     284       2  0.0   [ipmi-msghandler]
+    0     363       2  0.0   [cryptd]
+    0  785032       2  0.0   [kworker/1:2-cgroup_destroy]
+    0  818047       2  0.0   [kworker/1:1-events]
+    0  818048       2  0.0   [kworker/0:2-events]
+    0  818422       2  0.0   [kworker/u4:2-events_unbound]
+    0  820364       2  0.0   [kworker/0:1-events]
+    0  829140       2  0.0   [kworker/u4:3-events_unbound]
+    0  829141       2  0.0   [kworker/u4:5-events_unbound]
+    0  831506       2  0.0   [kworker/u4:0-events_freezable_power_]
+    0  831627       2  0.0   [kworker/0:0-events]
+    0       1       0  0.3 /sbin/init splash
+    0     259       1  1.4   /lib/systemd/systemd-journald
+    0     288       1  0.0   /lib/systemd/systemd-udevd
+  101     653       1  0.2   /lib/systemd/systemd-resolved
+  102     654       1  0.1   /lib/systemd/systemd-timesyncd
+    0     688       1  0.1   /usr/lib/accountsservice/accounts-daemon
+  115     691       1  0.1   avahi-daemon: running [ubuntu.local]
+  115     729     691  0.0     avahi-daemon: chroot helper
+    0     692       1  0.0   /usr/sbin/cron -f
+  103     694       1  1.7   /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    0     701       1  0.0   /usr/sbin/irqbalance --foreground
+    0     706       1  0.1   /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+    0     707       1  0.3   /usr/lib/policykit-1/polkitd --no-debug
+  104     712       1  0.1   /usr/sbin/rsyslogd -n -iNONE
+    0     713       1  0.7   /usr/lib/snapd/snapd
+    0     715       1  0.1   /usr/libexec/switcheroo-control
+    0     724       1  0.1   /lib/systemd/systemd-logind
+    0     725       1  0.1   /usr/lib/udisks2/udisksd
+    0     726       1  0.0   /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+    0     782       1  0.1   /usr/sbin/ModemManager
+  121     785       1  0.2   /usr/libexec/colord
+    0     795       1  0.0   /usr/bin/python3 /usr/bin/glances -s -B 127.0.0.1
+    0     864       1  0.0   /usr/bin/prltoolsd -p /var/run/prltoolsd.pid
+    0     895     864  0.0     prlshprint
+    0     896     864  0.0     prltimesync
+    0     897     864  0.1     prlusmd
+    0     876       1  0.1   /usr/sbin/gdm3
+    0    1705     876  0.2     gdm-session-worker [pam/gdm-password]
+ 1000    1783    1705  0.1       /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+ 1000    1787    1783  2.0         /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ 1000    1795    1783  0.1         /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+ 1000    1867    1795  0.0           /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+    0   67011    1705  0.1       gdm-session-worker [pam/gdm-password]
+    0   95478    1705  0.1       gdm-session-worker [pam/gdm-password]
+    0   96308    1705  0.1       gdm-session-worker [pam/gdm-password]
+    0   96617    1705  0.1       gdm-session-worker [pam/gdm-password]
+    0   97189    1705  0.1       gdm-session-worker [pam/gdm-password]
+    0   97775    1705  0.1       gdm-session-worker [pam/gdm-password]
+    0   98984    1705  0.1       gdm-session-worker [pam/gdm-password]
+    0     886       1  0.1   /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+  111     995       1  0.0   /usr/libexec/rtkit-daemon
+ 1000    1214       1  0.3   /lib/systemd/systemd --user
+ 1000    1215    1214  0.0     (sd-pam)
+ 1000    1255    1214  0.2     /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ 1000    1257    1214  0.5     /usr/libexec/tracker-miner-fs
+ 1000    1263    1214  0.4     /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 1000    1270    1214  0.1     /usr/libexec/gvfsd
+ 1000    2033    1270  0.1       /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+ 1000   17533    1270  0.2       /usr/libexec/gvfsd-smb --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+ 1000   53866    1270  0.1       /usr/libexec/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/2
+ 1000   53884    1270  0.1       /usr/libexec/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/4
+ 1000    1275    1214  0.0     /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ 1000    1299    1214  0.2     /usr/libexec/gvfs-udisks2-volume-monitor
+ 1000    1315    1214  0.1     /usr/libexec/gvfs-goa-volume-monitor
+ 1000    1320    1214  0.1     /usr/libexec/goa-daemon
+ 1000    1337    1214  0.1     /usr/libexec/goa-identity-service
+ 1000    1344    1214  0.1     /usr/libexec/gvfs-gphoto2-volume-monitor
+ 1000    1352    1214  0.1     /usr/libexec/gvfs-afc-volume-monitor
+ 1000    1383    1214  0.1     /usr/libexec/gvfs-mtp-volume-monitor
+ 1000    1888    1214  0.1     /usr/libexec/at-spi-bus-launcher
+ 1000    1894    1888  0.1       /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+ 1000    1899    1214  0.0     /usr/libexec/gnome-session-ctl --monitor
+ 1000    1906    1214  0.2     /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ 1000    2170    1906  0.1       /usr/libexec/gsd-disk-utility-notify
+ 1000    2174    1906  0.2       /usr/bin/prlcc
+ 1000    2183    2174  0.0         /usr/bin/prldnd
+ 1000    2184    2174  0.1         /usr/bin/prlcp
+ 1000    2185    2174  0.2         /usr/bin/prlsga
+ 1000    2186    2174  0.0         /usr/bin/prlshprof
+ 1000    2195    1906  0.2       /usr/libexec/evolution-data-server/evolution-alarm-notify
+ 1000    2747    1906  0.6       update-notifier
+ 1000    1971    1214  0.1     /usr/libexec/at-spi2-registryd --use-gnome-session
+ 1000    1975    1214  0.1     /usr/libexec/xdg-permission-store
+ 1000    1980    1214  0.2     /usr/libexec/gnome-shell-calendar-server
+ 1000    1986    1214  0.2     /usr/libexec/evolution-source-registry
+ 1000    1995    1214  0.2     /usr/libexec/evolution-calendar-factory
+ 1000    2003    1214  0.1     /usr/libexec/dconf-service
+ 1000    2008    1214  0.2     /usr/libexec/evolution-addressbook-factory
+ 1000    2045    1214  0.1     /usr/libexec/gsd-a11y-settings
+ 1000    2046    1214  0.3     /usr/libexec/gsd-color
+ 1000    2047    1214  0.1     /usr/libexec/gsd-datetime
+ 1000    2048    1214  0.1     /usr/libexec/gsd-housekeeping
+ 1000    2049    1214  0.2     /usr/libexec/gsd-keyboard
+ 1000    2050    1214  0.2     /usr/libexec/gsd-media-keys
+ 1000    2051    1214  0.2     /usr/libexec/gsd-power
+ 1000    2052    1214  0.2     /usr/libexec/gsd-print-notifications
+ 1000    2054    1214  0.1     /usr/libexec/gsd-rfkill
+ 1000    2055    1214  0.1     /usr/libexec/gsd-screensaver-proxy
+ 1000    2056    1214  0.1     /usr/libexec/gsd-sharing
+ 1000    2057    1214  0.1     /usr/libexec/gsd-smartcard
+ 1000    2058    1214  0.1     /usr/libexec/gsd-sound
+ 1000    2059    1214  0.1     /usr/libexec/gsd-usb-protection
+ 1000    2060    1214  0.2     /usr/libexec/gsd-wacom
+ 1000    2061    1214  0.1     /usr/libexec/gsd-wwan
+ 1000    2062    1214  0.2     /usr/libexec/gsd-xsettings
+ 1000    2148    1214  0.1     /usr/libexec/gsd-printer
+ 1000    2550    1214  0.1     /usr/libexec/gvfsd-metadata
+ 1000    2997    1214  0.2     /usr/libexec/xdg-desktop-portal
+ 1000    3001    1214  0.1     /usr/libexec/xdg-document-portal
+ 1000    3010    1214  0.5     /usr/libexec/xdg-desktop-portal-gtk
+ 1000  253375    1214  7.8     /usr/bin/gnome-shell
+ 1000  253391  253375  0.1       ibus-daemon --panel disable --xim
+ 1000  253395  253391  0.1         /usr/libexec/ibus-memconf
+ 1000  253396  253391  0.2         /usr/libexec/ibus-extension-gtk3
+ 1000  253427  253391  0.1         /usr/libexec/ibus-engine-simple
+ 1000  268514  253375  0.7       rhythmbox
+ 1000  253400    1214  0.2     /usr/libexec/ibus-x11 --kill-daemon
+ 1000  253404    1214  0.1     /usr/libexec/ibus-portal
+ 1000  253417    1214  0.1     /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ 1000  253481    1214 17.0     /usr/lib/firefox/firefox -new-window
+ 1000  253526  253481  0.3       /usr/lib/firefox/firefox -contentproc -parentBuildID 20220718155818 -prefsLen 25488 -prefMapSize 223113 -appDir /usr/lib/firefox/browser 253481 socket
+ 1000  253586  253481  2.3       /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 25629 -prefMapSize 223113 -jsInitLen 267752 -parentBuildID 20220718155818 -appDir /usr/lib/firefox/browser 253481 tab
+ 1000  253628  253481  0.6       /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 30087 -prefMapSize 223113 -jsInitLen 267752 -parentBuildID 20220718155818 -appDir /usr/lib/firefox/browser 253481 tab
+ 1000  253753  253481  0.2       /usr/lib/firefox/firefox -contentproc -parentBuildID 20220718155818 -prefsLen 30946 -prefMapSize 223113 -appDir /usr/lib/firefox/browser 253481 rdd
+ 1000  253862  253481  0.2       /usr/lib/firefox/firefox -contentproc -parentBuildID 20220718155818 -sandboxingKind 1 -prefsLen 30946 -prefMapSize 223113 -appDir /usr/lib/firefox/browser 253481 utility
+ 1000  253893  253481  2.3       /usr/lib/firefox/firefox -contentproc -childID 12 -isForBrowser -prefsLen 30946 -prefMapSize 223113 -jsInitLen 267752 -parentBuildID 20220718155818 -appDir /usr/lib/firefox/browser 253481 tab
+ 1000  587467  253481  1.7       /usr/lib/firefox/firefox -contentproc -childID 18 -isForBrowser -prefsLen 31106 -prefMapSize 223113 -jsInitLen 267752 -parentBuildID 20220718155818 -appDir /usr/lib/firefox/browser 253481 tab
+ 1000  590612  253481  3.4       /usr/lib/firefox/firefox -contentproc -childID 23 -isForBrowser -prefsLen 31106 -prefMapSize 223113 -jsInitLen 267752 -parentBuildID 20220718155818 -appDir /usr/lib/firefox/browser 253481 tab
+ 1000  590648  253481  2.5       /usr/lib/firefox/firefox -contentproc -childID 25 -isForBrowser -prefsLen 31106 -prefMapSize 223113 -jsInitLen 267752 -parentBuildID 20220718155818 -appDir /usr/lib/firefox/browser 253481 tab
+ 1000  590650  253481 12.4       /usr/lib/firefox/firefox -contentproc -childID 26 -isForBrowser -prefsLen 31106 -prefMapSize 223113 -jsInitLen 267752 -parentBuildID 20220718155818 -appDir /usr/lib/firefox/browser 253481 tab
+ 1000  671141  253481  0.5       /usr/lib/firefox/firefox -contentproc -childID 27 -isForBrowser -prefsLen 31109 -prefMapSize 223113 -jsInitLen 267752 -parentBuildID 20220718155818 -appDir /usr/lib/firefox/browser 253481 tab
+ 1000  671144  253481  0.5       /usr/lib/firefox/firefox -contentproc -childID 28 -isForBrowser -prefsLen 31109 -prefMapSize 223113 -jsInitLen 267752 -parentBuildID 20220718155818 -appDir /usr/lib/firefox/browser 253481 tab
+ 1000  671148  253481  0.5       /usr/lib/firefox/firefox -contentproc -childID 29 -isForBrowser -prefsLen 31109 -prefMapSize 223113 -jsInitLen 267752 -parentBuildID 20220718155818 -appDir /usr/lib/firefox/browser 253481 tab
+ 1000  268512    1214  0.3     /usr/bin/gnome-calendar --gapplication-service
+ 1000  480310    1214  0.2     /usr/bin/seahorse --gapplication-service
+ 1000  480314    1214  1.2     /usr/libexec/gnome-terminal-server
+ 1000  480386  480314  0.1       bash
+ 1000  484930  480314  0.1       bash
+ 1000  832580  484930  0.1         ps -eH --format uid,pid,ppid,%mem,cmd
+ 1000  802270    1214  1.0     /usr/libexec/gnome-shell-portal-helper
+ 1000  802286  802270  0.4       /usr/lib/aarch64-linux-gnu/webkit2gtk-4.0/WebKitNetworkProcess 1 14
+ 1000  802290  802270  0.0       /usr/bin/bwrap --args 23 -- /usr/bin/xdg-dbus-proxy --args=20
+ 1000  802293  802290  0.0         /usr/bin/bwrap --args 23 -- /usr/bin/xdg-dbus-proxy --args=20
+ 1000  802295  802293  0.1           /usr/bin/xdg-dbus-proxy --args=20
+ 1000  802297  802270  0.0       /usr/bin/bwrap --args 24 -- /usr/bin/xdg-dbus-proxy --args=21
+ 1000  802298  802297  0.0         /usr/bin/bwrap --args 24 -- /usr/bin/xdg-dbus-proxy --args=21
+ 1000  802299  802298  0.1           /usr/bin/xdg-dbus-proxy --args=21
+ 1000  802301  802270  0.0       /usr/bin/bwrap --args 21 -- /usr/lib/aarch64-linux-gnu/webkit2gtk-4.0/WebKitWebProcess 11 14
+ 1000  802302  802301  0.0         /usr/bin/bwrap --args 21 -- /usr/lib/aarch64-linux-gnu/webkit2gtk-4.0/WebKitWebProcess 11 14
+ 1000  802303  802302  1.6           /usr/lib/aarch64-linux-gnu/webkit2gtk-4.0/WebKitWebProcess 11 14
+    0    1249       1  0.1   /usr/lib/upower/upowerd
+  120    1363       1  0.2   /usr/bin/whoopsie -f
+  116    1371       1  0.0   /usr/sbin/kerneloops --test
+  116    1381       1  0.0   /usr/sbin/kerneloops
+ 1000    1775       1  0.1   /usr/bin/gnome-keyring-daemon --daemonize --login
+ 1000   65079    1775  0.1     /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+    0  662887       1  0.0   /usr/sbin/uservd -daemon
+    0  732512       1  0.4   /usr/sbin/NetworkManager --no-daemon
+    0  783869       1  0.3   /usr/sbin/cupsd -l
+    0  783871       1  0.3   /usr/sbin/cups-browsed
